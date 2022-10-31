@@ -5,3 +5,4 @@ dbname = "null.db"
 con = sq3.connect(dbname)
 cur = con.cursor()
 
+cur.execute("")
